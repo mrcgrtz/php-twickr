@@ -1,0 +1,10 @@
+DirectoryIndex index.php index.html
+
+<IfModule mod_headers.c>
+	Header set X-Robots-Tag: noindex
+</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^upload$   /index.php [L]
+</IfModule>

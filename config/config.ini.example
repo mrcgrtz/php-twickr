@@ -1,0 +1,20 @@
+[twitter]
+allowed = "MyUsername"
+
+[flickr]
+; for api/secret/token, follow the instructions at http://phpflickr.com/tools/auth/
+api      =
+secret   =
+token    =
+; photoset ID, leave empty for using no photoset
+photoset =
+
+[content]
+; default image title
+title          = "Twitter Photo"
+; default image tags
+tags           = "Twitter"
+; appendix
+appendBoth     = "From @<a href='https://twitter.com/%username%'>%username%</a> via %source%."
+appendUsername = "From @<a href='https://twitter.com/%username%'>%username%</a>."
+appendSource   = "Via %source%."

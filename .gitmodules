@@ -1,0 +1,3 @@
+[submodule "lib/tweetify"]
+	path = lib/tweetify
+	url = git://github.com/fiveminuteargument/tweetify.git

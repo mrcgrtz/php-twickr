@@ -1,0 +1,33 @@
+##############################################################################
+# Mac OS X and Windows system files
+# @see https://github.com/github/gitignore/blob/master/Global/
+##############################################################################
+
+# Directory settings
+.DS_Store
+Desktop.ini
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Drive-specific directories
+.Spotlight-V100
+.Trashes
+
+
+##############################################################################
+# Editor project files
+# @see https://github.com/github/gitignore/blob/master/Global/
+##############################################################################
+
+# SublimeText
+*.sublime-project
+*.sublime-workspace
+
+
+##############################################################################
+# Config file
+##############################################################################
+
+config/config.ini
