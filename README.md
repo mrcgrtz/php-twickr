@@ -7,15 +7,15 @@ used by any Twitter client that supports the TwitPic API.
 
 1. Initialize the submodules:
 
-```bash
-	git submodule init && git submodule update
-```
+   ```bash
+   	git submodule init && git submodule update
+   ```
 
 2. Copy the sample configuration:
 
-```bash
-	cp ./config/config.ini.example ./config/config.ini
-```
+   ```bash
+   	cp ./config/config.ini.example ./config/config.ini
+   ```
 
 3. Create your [Flickr auth tokens](http://phpflickr.com/tools/auth/)
 and customize your configuration.
